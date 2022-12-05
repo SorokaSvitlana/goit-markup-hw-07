@@ -1,0 +1,44 @@
+.footer-container {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-page {
+    background-color: var(--footer-background-color);
+    color: var(--hero-title-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-page .item-info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-page .logo {
+    color: var(--hero-title-color);
+}
+
+.all-logo {
+    margin-bottom: 20px;
+}
+
+.footer-page .logo {
+    margin-right: 0;
+}
+
+.mail,
+.tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-address {
+    font-style: inherit;
+    margin-bottom: 9px;
+}
