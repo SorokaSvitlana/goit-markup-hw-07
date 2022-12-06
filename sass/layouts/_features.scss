@@ -2,12 +2,12 @@
     padding-bottom: 0;
 }
 
-.features-list {
+.features__list {
     display: flex;
     gap: 30px;
 }
 
-.features-subtitle {
+.features__subtitle {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -16,23 +16,18 @@
     margin-bottom: 10px;
 }
 
-.features-item {
+.features__item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.features-text {
+.features__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
-.features-svg {
-    display: flex;
-    gap: 30px;
-}
-
-.features-icons {
+.features__icons {
     display: flex;
     height: 120px;
     background-color: #f5f4fa;

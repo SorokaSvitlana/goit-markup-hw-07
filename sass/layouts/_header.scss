@@ -1,9 +1,9 @@
-.header-page {
+.header {
     border-bottom: 1px solid #ececec;
     position: relative;
 }
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
     /* padding-top: 24px;
@@ -17,23 +17,23 @@
     align-items: center;
 }
 
-.list-nav {
+.navigation__list {
     display: flex;
     gap: 50px;
     margin: 0;
 }
 
-.list-info {
+.info__list {
     display: flex;
     gap: 50px;
 }
 
-.icon-header {
+.info__icon {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.item-nav {
+.navigation__link {
     display: block;
     position: relative;
     font-weight: 500;
@@ -63,11 +63,11 @@
     bottom: -1px;
 }
 
-.item-nav.current {
+.navigation__link.current {
     color: var(--accent-color);
 }
 
-.item-info {
+.info__link {
     display: flex;
     align-items: center;
     font-weight: 500;

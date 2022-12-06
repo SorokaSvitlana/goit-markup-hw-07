@@ -1,8 +1,8 @@
-.footer-form {
+.footer__form {
     margin-left: auto;
 }
 
-.footer-email {
+.footer__input-email {
     width: 358px;
     padding: 16px;
     background-color: transparent;
@@ -18,7 +18,7 @@
     }
 }
 
-.footer-btn {
+.footer__btn {
     display: flex;
     align-items: center;
     margin-left: 12px;
@@ -37,11 +37,11 @@
     }
 }
 
-.icon-send {
+.footer__icon-send {
     margin-left: 10px;
 }
 
-.footer-input {
+.footer__input {
     display: flex;
     margin-top: 20px;
 }
